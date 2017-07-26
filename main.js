@@ -129,8 +129,8 @@ let color= 'brown'
 let animal= 'fox'
 let action= "jumps over the fence."
 
-function madlib(adj,color,animal,action){
-  return (adj + " " + color + " " + animal + " " + action);
+function madlib(string1,string2,string3,string4){
+  return (string1 + " " + string2 + " " + string3 + " " + string4);
 }
 
 console.log(madlib(adj,color,animal,action));
